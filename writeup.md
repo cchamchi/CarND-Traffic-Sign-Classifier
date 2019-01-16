@@ -146,11 +146,14 @@ Here are the results of the prediction:
 
 
 
-The model was able to correctly guess 8 of the 8 traffic signs, which gives an accuracy of 100%.
+The model was able to correctly guess 8 of the 8 traffic signs, which gives an accuracy of 100%. The accuracy of test data set is 95%. If I try more signs then the accuracy will be close to 95%.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
  The top eight soft max probabilities were
+ The first image is 20km/h speed limit sign. I tested two 20km/h sign, The one is 355x355 and the the other is 52x52.
+I thought the bigger image will had the more accurate, but after resizing 355x355 image was distorted than 52x52. 
+
 ![alt text][image3]
 
 
